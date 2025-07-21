@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* clientAppointments.css */
+.appointments-container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointments-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.appointments-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.appointments-container th,
+.appointments-container td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.appointments-container th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #555;
+}
+
+.appointments-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.appointments-container tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.appointments-container p {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}

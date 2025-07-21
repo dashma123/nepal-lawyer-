@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  text-align: center;
+
+  font-size: 2rem;
+  margin: 30px 0 30px;
+  color: #3f5494;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3f5494;
+  color: white;
+  padding: 40px 200px;
+  flex-wrap: wrap;
+}
+
+.icon-box {
+  text-align: center;
+  width: 20%;
+  margin: 10px;
+}
+
+.icon-box i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+.social-section {
+  background-color: #3f5494;
+  color: white;
+  text-align: center;
+  padding: 5px 0 20px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.form-section {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #3f5494;
+  margin-bottom: 20px;
+}
+
+form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.field {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field.full {
+  flex: 1 1 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #3f5494;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1f2b5c;
+}
+
+.map-section iframe {
+  margin-top: 0;
+  display: block;
+  border: none;
+}

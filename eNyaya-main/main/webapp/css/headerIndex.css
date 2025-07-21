@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.index-top-bar {
+  background: #fff;
+  padding: 8px 20px;
+  text-align: right;
+}
+.index-top-bar a { margin-left: 15px; color: #333; font-size: 16px; }
+
+/* language switcher */
+.lang-switcher { position: relative; display: inline-block; margin-left: 15px; cursor: pointer; }
+.lang-menu { display: none; position: absolute; right: 0; background: #fff; border: 1px solid #ccc; }
+.lang-switcher:hover .lang-menu { display: block; }
+.lang-menu a { display: block; padding: 5px 12px; color: #333; text-decoration: none; }
+.lang-menu a:hover { background: #f0f0f0; }
+
+/* main nav */
+.index-nav-bar {
+  display: flex; align-items: center;
+  background: #1c2f50; color: #fff;
+  padding: 12px 20px;
+}
+.index-nav-bar .logo { display: flex; align-items: center; }
+.index-nav-bar .logo img { height: 45px; margin-right: 10px; }
+.index-nav-bar .logo div { font-size: 14px; line-height: 1.4; }
+
+.index-nav-bar .nav-links {
+  list-style: none; display: flex; gap: 30px; margin-left: 40px; flex: 1;
+}
+.index-nav-bar .nav-links li a {
+  color: #ccc; text-decoration: none; font-size: 15px;
+}
+.index-nav-bar .nav-links li a:hover { color: #fff; }
+
+.index-nav-bar .auth-links a {
+  color: #fff; text-decoration: none; margin-left: 20px; font-size: 15px;
+}
+.index-nav-bar .auth-links .register-btn {
+  border: 1px solid #fff; padding: 6px 14px; border-radius: 20px;
+}
+.index-nav-bar .auth-links a:hover { opacity: 0.8; }

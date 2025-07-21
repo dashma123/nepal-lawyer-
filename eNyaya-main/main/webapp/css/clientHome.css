@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F6F7FD;
+}
+
+.search-section {
+    /* background-color: #D8C4B6;  remove or comment this out */
+    background-image: url("../resources/images/court.png");
+    background-size: cover;       /* fill the whole area */
+    background-position: center;   /* center the image */
+    background-repeat: no-repeat;  /* don’t tile it */
+    padding: 60px 20px 120px;
+}
+
+.search-bar {
+    display: flex;
+    max-width: 650px;
+    margin: 200px 0 20px 74px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.search-bar input + input {
+    border-left: 1px solid #ccc;
+}
+
+.search-bar button {
+    /* remove old padding/font-size if any */
+    padding: 0 16px;
+    background-color: #4a4a8a;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+/* make the icon nice and crisp */
+.search-bar button .fas {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* hover/focus states */
+.search-bar button:hover,
+.search-bar button:focus {
+    background-color: #37376e;
+    outline: none;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+    gap: 100px;
+}
+
+.feature-box {
+    background-color: #335286;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.feature-box h3 {
+    margin: 5px;
+    font-size: 34px;
+}
+
+.feature-box p {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.featured,
+.premium {
+    padding: 150px;
+}
+
+.premium {
+    background-color: #5C7FBE;
+    margin-top: -70px;
+}
+
+.premium h1 {
+    color: #fff;
+    margin-top: -90px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #51589C;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img.top-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #2d4c44;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: #2d4c44;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+.call-to-action {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;    /* centers the two boxes horizontally */
+  gap: 500px;                  /* space between them */
+  background-color: #55679C;   /* same blue as your premium section */
+  padding: 40px 20px;          /* plenty of breathing room */
+}
+
+.call-to-action .cta-box {
+  text-align: center;
+}
+
+.call-to-action .cta-box h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.call-to-action .cta-box .btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #5C7FBE;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.call-to-action .cta-box .btn:hover {
+  background-color: #e0e0e0;
+  color: #4a4a8a;
+}

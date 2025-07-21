@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f6fc;
+  height: 100vh;
+}
+
+main{
+	  display: flex;
+}
+
+.container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  flex-grow: 1;
+}
+
+.container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c2f50;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* ========== TABLE ========== */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  text-align: left;
+  padding: 15px 15px;
+  border-bottom: 1px solid #dce1f1;
+  font-size: 14px;
+}
+
+.user-table thead {
+  background-color: #f4f6fc;
+  color: #333;
+}
